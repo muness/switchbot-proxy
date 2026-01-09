@@ -4,7 +4,7 @@ WORKDIR /app
 
 RUN pip install --no-cache-dir fastapi uvicorn aiohttp
 
-COPY app.py .
+COPY docker/app.py .
 
 EXPOSE 8099
 
