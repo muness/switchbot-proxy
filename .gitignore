@@ -1,0 +1,33 @@
+# Credentials and sensitive files
+*.env
+.env*
+credentials.json
+secrets.json
+config.local.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cloud Atlas AI tools
+.superego/
+.wm/
+.ba/
+.claude/

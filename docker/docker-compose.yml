@@ -1,0 +1,10 @@
+services:
+  switchbot-proxy:
+    build: .
+    container_name: switchbot-proxy
+    restart: unless-stopped
+    ports:
+      - "8099:8099"
+    environment:
+      - SWITCHBOT_TOKEN=f583a1e24ea3ad0cc86a368afd6429ec54ab9c90958cc45867c61a6e545855987ca0c047b57915c926f35afef1e69f05
+      - SWITCHBOT_SECRET=92059c929946375cb1e05ce8f463da23
